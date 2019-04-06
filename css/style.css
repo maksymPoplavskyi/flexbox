@@ -20,6 +20,10 @@ body {
     padding: 90px 0;
 }
 
+.blog + .loader {
+    padding-bottom: 90px;
+}
+
 .blog-item {
     display: flex;
     width: 360px;
@@ -93,4 +97,18 @@ body {
 
 .blog-item__author {
     margin-top: auto;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #99a5b0;
+}
+
+.loader img {
+    margin-right: 20px;
 }
